@@ -23,5 +23,36 @@ git par first commit kar do
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 
+PART - 2
+
 becoz folders are initially empty , github cannot track them.
 so we need to install an extention "gkeep", this will automatically create .gitkeep file side every empty folder so that github can track these folders. when you add any other file in these foldes this .gitkeep file will automatically be deleted and now github will automatically track this folder.
+
+CREATE--
+
+1. usermodel :-
+full name - string
+email - string
+password - string
+cart - array
+isadmin - boolean
+orders - array
+contact - number
+picture - db
+     
+2. productmodel :-
+image
+name
+price
+discount
+bgcolor
+panelcolor
+textcolor
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PART - 3
+
+Create "owners_model" mostly similar to user
+
+create "mongoose_connection" file in config folder to write of connection code to connect with mongoose
