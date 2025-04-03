@@ -1,0 +1,27 @@
+install npm
+create app.js
+express mongoose jsonwebtoken cookie-parser bcrypt multer path ejs
+
+CREATE FOLDERS
+models
+config
+middlewares
+utils
+routes
+controllers
+public -- images, javascripts, stylesheets
+views
+
+.env file for keys
+.gitignore 
+
+.gitignore ke andar node_modules and .env daal denge, so that git par commit karte time ye folders track na ho
+
+then, initialize git with 'git init command'
+
+git par first commit kar do
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+becoz folders are initially empty , github cannot track them.
+so we need to install an extention "gkeep", this will automatically create .gitkeep file side every empty folder so that github can track these folders. when you add any other file in these foldes this .gitkeep file will automatically be deleted and now github will automatically track this folder.
