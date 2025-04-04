@@ -72,3 +72,24 @@ PART - 5
 /admin -> admin panel
 /owner/products -> show all products
 /owner/admin -> show admin panel to create products
+
+
+/register route banane ke baad cookie provide ka feature likho
+install  :- 
+jsonwebtoken 
+bcrypt
+cookie-parser
+dotenv
+
+1. passwork encypt ho
+2. jwt signed data
+3. to set cookie
+
+
+keys setup karo
+npm istall config
+utils me jao generatetokes.js banao code likho. ye toen return karega
+
+usersroute me ../utils/generateTokens ko require kkaro
+
+/register wale code ko authcontrollers ke bhejo aur fir export karo
