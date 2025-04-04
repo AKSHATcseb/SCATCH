@@ -56,3 +56,19 @@ PART - 3
 Create "owners_model" mostly similar to user
 
 create "mongoose_connection" file in config folder to write of connection code to connect with mongoose
+
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PART - 5
+
+/ -> signup or login
+/shop -> shop
+/users/cart -> cart
+/admin -> admin panel
+/owner/products -> show all products
+/owner/admin -> show admin panel to create products
