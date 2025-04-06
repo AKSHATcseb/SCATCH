@@ -3,12 +3,12 @@ create app.js
 express mongoose jsonwebtoken cookie-parser bcrypt multer path ejs
 
 CREATE FOLDERS
-models
-config
-middlewares
-utils
-routes
-controllers
+models  -  has all the table of properties of entities
+config - has connection with mongodb
+middlewares - has function which acts as middleware like isLoggedIn
+utils - has ganerated tokens for user authenticaton
+routes - userroute, productroute, ownerroute
+controllers 
 public -- images, javascripts, stylesheets
 views
 
@@ -101,3 +101,17 @@ setting up user login route.........
 
 1. go to usersroute
 2. import 
+
+
+
+
+
+
+
+
+
+EXPRESS 
+1. develop webservers and APIs
+2. Express helps you define routes (URLs) and attach logic to handle requests.
+3. middleware service
+
